@@ -79,3 +79,13 @@ test('delete will remove the person for a given row', function() {
         equal(find("table tr:eq(0) td:eq(0)").text(), "toran billups", "the wrong person was deleted");
     });
 });
+
+test('translation works', function() {
+    visit("/");
+    andThen(function() {
+        var wat = find("#wat");
+        equal(wat.text(), "cat");
+        var edit = find("#edit");
+        equal(edit.text(), "Edit User");
+    });
+});

@@ -16,6 +16,8 @@ var paths = {
         'js/vendor/ember/ember.min.js',
         'js/vendor/ember-loader/loader.js',
         'js/vendor/ember-resolver/dist/ember-resolver.js',
+        'vendor/i18n.js',
+        'vendor/translations.js',
         'js/dist/tmpl.min.js',
         'js/app/**/*.js'
     ],
@@ -26,6 +28,8 @@ var paths = {
         'js/vendor/fauxjax/dist/fauxjax.min.js',
         'js/vendor/ember-loader/loader.js',
         'js/vendor/ember-resolver/dist/ember-resolver.js',
+        'vendor/i18n.js',
+        'vendor/translations.js',
         'js/dist/tmpl.min.js',
         'js/app/**/*.js',
         'js/tests/**/*.js',
