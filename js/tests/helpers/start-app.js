@@ -20,8 +20,6 @@ function startApp() {
     App.injectTestHelpers();
   });
 
-  App.reset();
-
   return App;
 }
 

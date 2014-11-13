@@ -18,6 +18,18 @@ $.fauxjax.new({
   responseText: fake
 });
 
+var en = {
+  'wat': 'cat',
+  'user.edit.title': 'Edit User'
+};
+
+$.fauxjax.new({
+  type: 'GET',
+  url: '/api/translations?locale=en',
+  dataType: 'json',
+  responseText: en
+});
+
 $.fauxjax.settings.responseTime = 0;
 
 </script>

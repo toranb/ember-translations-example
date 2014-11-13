@@ -1,11 +1,15 @@
 import Person from 'js/models/person';
 
-var App;
+var App, en = {
+  'wat': 'cat',
+  'user.edit.title': 'Edit User'
+};
 
 module('integration tests', {
     setup: function() {
-        App = startApp();
         Person.people = [];
+        stubEndpointForHttpRequest('/api/translations?locale=en', en);
+        App = startApp();
     },
     teardown: function() {
         $.fauxjax.clear();
