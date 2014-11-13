@@ -15,3 +15,8 @@ To run the javascript tests
 
     npm install
     gulp test
+
+
+The bulk of the interesting code is in the bootstrap init code
+
+https://github.com/toranb/ember-translations-example/blob/master/js/app/initializers/bootstrap.js#L10
