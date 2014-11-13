@@ -1,4 +1,4 @@
-A simple ember.js app using gulp for the client side build step
+A simple ember.js app with ember-i18n for translations
 
 
 To run the ember.js app locally
